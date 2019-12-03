@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "228266522192",
+    "firebase_url": "https://recruitem-53f87.firebaseio.com",
+    "project_id": "recruitem-53f87",
+    "storage_bucket": "recruitem-53f87.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:228266522192:android:03ba55f79b7743b8eec355",
+        "android_client_info": {
+          "package_name": "com.mind.loginregisterapps"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "228266522192-ngtbj9dpgfo926egfc67k8feq8u27irs.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.mind.loginregisterapps",
+            "certificate_hash": "533c4a1be59e7adbb2d3c425b417cd4c561f8fef"
+          }
+        },
+        {
+          "client_id": "228266522192-ccidjlibcfk7ilt31tstdbpblk2t9ubl.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAZJqGeZibOfniEjixJ62Hydmc8FslEZpc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "228266522192-ccidjlibcfk7ilt31tstdbpblk2t9ubl.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

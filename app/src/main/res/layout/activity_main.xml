@@ -13,6 +13,15 @@
         android:layout_height="220dp"
         android:background="@drawable/header_login"
         android:elevation="5dp" />
+    <ProgressBar
+        android:id="@+id/progressBar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="120dp"
+        android:layout_marginLeft="170dp"
+        android:visibility="gone"
+        />
 
     <TextView
         android:id="@+id/tvDesc"
@@ -26,7 +35,7 @@
         android:textSize="17sp" />
 
     <TextView
-        android:id="@+id/tvLogin"
+        android:id="@+id/Login"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_below="@+id/tvDesc"
@@ -105,7 +114,7 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_margin="10dp"
-                        android:text="Username"
+                        android:text="Email"
                         android:textColor="@color/colorPurple"
                         android:textSize="14sp"
                         android:textStyle="bold" />
@@ -113,6 +122,7 @@
                     <EditText
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
+                        android:id="@+id/txtEmail"
                         android:layout_marginLeft="10dp"
                         android:layout_marginRight="10dp"
                         android:inputType="text" />
@@ -129,9 +139,11 @@
                     <EditText
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
+                        android:id="@+id/txtPassword"
                         android:layout_marginLeft="10dp"
                         android:layout_marginRight="10dp"
                         android:inputType="textPassword" />
+
                 </LinearLayout>
             </android.support.v7.widget.CardView>
 
@@ -147,10 +159,21 @@
                 android:elevation="10dp">
 
                 <Button
+                    android:id="@+id/tvLogin"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:background="@drawable/bg_ui"
                     android:text="Login"
+                    android:textAllCaps="false"
+                    android:textColor="@color/colorWhite" />
+
+                <Button
+                    android:id="@+id/tvRegister"
+                    android:layout_marginTop="60dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/bg_ui"
+                    android:text="Create a new account"
                     android:textAllCaps="false"
                     android:textColor="@color/colorWhite" />
             </RelativeLayout>
@@ -164,12 +187,7 @@
                 android:layout_marginRight="-20dp"
                 android:elevation="10dp">
 
-                <ImageButton
-                    android:id="@+id/btRegister"
-                    android:layout_width="50dp"
-                    android:layout_height="50dp"
-                    android:background="@drawable/bg_ui"
-                    android:src="@drawable/ic_add" />
+
             </RelativeLayout>
 
             <TextView
@@ -178,7 +196,7 @@
                 android:layout_height="wrap_content"
                 android:layout_below="@+id/cv"
                 android:layout_centerHorizontal="true"
-                android:layout_marginTop="10dp"
+                android:layout_marginTop="110dp"
                 android:elevation="5dp"
                 android:text="Forgot your password?"
                 android:textSize="14sp" />
@@ -189,9 +207,9 @@
                 android:layout_below="@+id/tvForgot"
                 android:layout_alignLeft="@+id/cv"
                 android:layout_alignRight="@+id/cv"
-                android:layout_marginLeft="20dp"
-                android:layout_marginTop="20dp"
-                android:layout_marginRight="20dp"
+                android:layout_marginLeft="17dp"
+                android:layout_marginTop="11dp"
+                android:layout_marginRight="23dp"
                 android:background="@drawable/bt_uifb"
                 android:drawableLeft="@drawable/logofacebook"
                 android:paddingLeft="20dp"
